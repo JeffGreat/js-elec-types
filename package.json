@@ -1,0 +1,28 @@
+{
+  "name": "js-elec-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && git add .",
+    "link": "npm run build && cd dist && npm link"
+  },
+  "pre-commit": "build",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.5.29",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.18.2"
+  }
+}
