@@ -16,6 +16,7 @@ export interface IFolio extends IBaseModel {
         };
     };
     nodeDataArray: any[];
+    linkDataArray: any[];
 }
 export interface IProject extends IBaseModel {
     name: string;
