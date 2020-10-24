@@ -13,5 +13,6 @@ export interface IFolio extends IBaseModel {
 export interface IProject extends IBaseModel {
     name: string;
     folios: IFolio[];
+    groundImages: string[];
     users: string[];
 }
