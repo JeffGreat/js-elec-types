@@ -4,27 +4,14 @@ export const imageFormats = [
     },
     {
         suffix: 'xlg',
-        width: 1200,
-        height: 800,
+        width: 1800,
+        height: 1200,
         option: { fit: 'outside' },
     },
     {
         suffix: 'lg',
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 800,
         option: { fit: 'outside' },
     },
-    {
-        suffix: 'md',
-        width: 500,
-        height: 300,
-        option: { fit: 'outside' },
-    },
-    {
-        suffix: 'sm',
-        width: 300,
-        height: 300,
-        option: { fit: 'cover' },
-    },
-    { suffix: 'xs', width: 100, height: 100, option: { fit: 'cover' } },
 ];

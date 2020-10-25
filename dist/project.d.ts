@@ -9,10 +9,10 @@ export interface IFolio extends IBaseModel {
     linkDataArray: {
         [index: string]: any;
     }[];
+    groundImages: string[];
 }
 export interface IProject extends IBaseModel {
     name: string;
     folios: IFolio[];
-    groundImages: string[];
     users: string[];
 }
