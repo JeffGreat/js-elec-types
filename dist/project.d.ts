@@ -1,5 +1,6 @@
 import { IBaseModel } from './base-model';
 export interface IFolio extends IBaseModel {
+    name: string;
     modelData: {
         [index: string]: any;
     };
