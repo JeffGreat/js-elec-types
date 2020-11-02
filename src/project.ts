@@ -5,7 +5,7 @@ export interface IFolio extends IBaseModel {
     modelData: { [index: string]: any };
     nodeDataArray: { [index: string]: any }[];
     linkDataArray: { [index: string]: any }[];
-    groundImages: string[];
+    groundImages?: string[];
 }
 
 export interface IProject extends IBaseModel {
