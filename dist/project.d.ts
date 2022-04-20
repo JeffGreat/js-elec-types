@@ -1,4 +1,9 @@
 import { IBaseModel } from './base-model';
+export declare enum ProjectStatusEnum {
+    pending = 0,
+    complete = 100,
+    deleted = 200
+}
 export interface IFolio extends IBaseModel {
     name: string;
     modelData: {
@@ -15,5 +20,6 @@ export interface IProject extends IBaseModel {
     name: string;
     folios: IFolio[];
     users: string[];
+    status: ProjectStatusEnum;
     groundImages?: string[];
 }
