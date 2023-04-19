@@ -44,4 +44,6 @@ export interface IUser extends IBaseModel {
     stripeSession: string;
     lastLogins: Date[];
     projectCount: number;
+    disabled?: Date;
+    softDelted?: Date;
 }
