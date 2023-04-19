@@ -1,9 +1,16 @@
 {
-  "name": "js-elec-types",
+  "name": "@js-elec/js-elec-types",
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git://gitlab.com/js-elec/js-elec-types.git"
+  },
+  "publishConfig": {
+    "@foo:registry": " https://gitlab.com/api/v4/projects/43882349/packages/npm/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && git add .",
